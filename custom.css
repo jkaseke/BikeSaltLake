@@ -1,0 +1,71 @@
+#header{
+	text-align: center;
+	color:DarkCyan;
+	 text-shadow:
+    -1px -1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px 1px 0 #FFFFFF;
+}
+
+
+#myMap{
+	color: white;
+	position: relative;
+	border: 3px solid DarkCyan;
+	height: 84vh;
+	width:	100%;
+	float:	right;
+
+}
+
+
+#viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+#basemaps{
+	position: bottom-right;
+	height: 10vh;
+	width:	10%;
+	float:	right;
+    }
+
+
+	
+	
+body, html {
+    height: 40%;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("bicycles.JPG");
+
+    /* Set a specific height */
+    height: 60%;
+	width: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+	float: inherit;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
